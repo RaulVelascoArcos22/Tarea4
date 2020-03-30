@@ -10,19 +10,10 @@
 </head>
 <body>
     <main>
-        <h1>Introduccion Cliente</h1>
         <header>
-            <div class="logo">
-                <img src="logo2.png" alt="">
-                  
-            </div>
-            <div class="nombre">
-                <h1 >CodeBit</h1> 
-            </div>
             <div class="menu_bar">
                 <a href="#" class="bt-menu"><i class="fas fa-align-justify"></i>Menu</a>
             </div>
-            <div>
             <nav>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
@@ -33,16 +24,55 @@
                             <li><a href="clien-intro.html">Introducción</a></li>   
                         </ul>
                     </li>
-                    <li><a href="#">Frameworks</a></li>
+                    <li class="sub-menu">
+                        <a href="#">Lenguajes <i class=" carter fas fa-angle-down"></i></a>
+                        <ul class="children">
+                            <li><a href="lenguaje-html.html">HTML</a></li>
+                            <li><a href="lenguaje-javascript.html">Java Script</a></li>  
+                            <li><a href="lenguaje-css.html">CSS</a></li>
+                            <li><a href="visual.html">Visual Basic Script</a></li>
+                            <li><a href="lenguaje-java.html">Applets de java </a></li> 
+                        </ul>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="#">Frameworks <i class=" carter fas fa-angle-down"></i></a>
+                        <ul class="children">
+                            <li><a href="clien-definicion.html">Definición</a></li>
+                            <li><a href="clien-intro.html">Arquitectura</a></li>
+                            <li><a href="clien-intro.html">Tipos</a></li> 
+                            <li><a href="clien-intro.html">Caracteristicas</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Estructuras de contro</a></li>
                     <li><a href="#">Manipulación de objetos</a></li>
-                    <li><a href="#">Ejemplos</a></li>
+                    <li class="sub-menu">
+                        <a href="#">Ejemplos <i class=" carter fas fa-angle-down"></i></a>
+                        <ul class="children">
+                            <li><a href="clien-definicion.html">Ejemplo 1</a></li>
+                            <li><a href="clien-intro.html">Ejemplo 2</a></li>   
+                        </ul>
+                    </li>
                 </ul>
             </nav>
-        </div>
         </header>
+        <section>
+            <h1 class="titulo2">¿Que son los lenguajes de programacion del lado cliente?</h1>
+            <article class="arti">
+                <p>Cuando se programa una pagina web, en la mayoria de los 
+                    casos se utiliza los que se conocen como "Lenguajes de Programacion".</br>
+                    Es decir , que el servidor no interviene para nada en el proceso de 
+                    crear la pagina web solicitada por el usuario.<</br>
+                    Las paginas creadas con estor lenguajes son enviadas al usuario de forma
+                    el navegador es el encargado de interpretar y mostrarlas por pantalla.
+                </p>
+                    <img src="def.png" class="img-fondo1">
+            </article>
+        </section>
+        <footer>
+            <h2 class="pie-texto">&copy;  Todos los derechos reservados Raul Velasco Arcos</h2>
+        </footer>
+        </main>
     </main>
-    
 
     <script src="jquery.js"></script>
     <script src="main.js"></script>
