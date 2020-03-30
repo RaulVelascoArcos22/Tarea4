@@ -18,6 +18,9 @@ function main(){
 			});
 		}
 
+    });
+    $('.sub-menu').click(function(){
+		$(this).children('.children').slideToggle();
 	});
 
 };
