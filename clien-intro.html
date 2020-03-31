@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="articulo.css">
     <script src="https://kit.fontawesome.com/5998947bec.js" crossorigin="anonymous"></script>
     <title>Introduccion</title>
 </head>
 <body>
     <main>
+        <div class="background">
+        </div>
         <header>
             <div class="menu_bar">
                 <a href="#" class="bt-menu"><i class="fas fa-align-justify"></i>Menu</a>
@@ -55,19 +58,23 @@
                 </ul>
             </nav>
         </header>
-        <section>
-            <h1 class="titulo2">¿Que son los lenguajes de programacion del lado cliente?</h1>
-            <article class="arti">
-                <p>Cuando se programa una pagina web, en la mayoria de los 
-                    casos se utiliza los que se conocen como "Lenguajes de Programacion".</br>
-                    Es decir , que el servidor no interviene para nada en el proceso de 
-                    crear la pagina web solicitada por el usuario.<</br>
-                    Las paginas creadas con estor lenguajes son enviadas al usuario de forma
-                    el navegador es el encargado de interpretar y mostrarlas por pantalla.
-                </p>
-                    <img src="def.png" class="img-fondo1">
-            </article>
-        </section>
+        <article class="wrapper">
+            <header class="uni">
+              <h1 class="pageTitle">¿Que son los lenguajes de programacion del lado cliente?</h1>
+              <h2 class="pageSubTitle"></h2>
+            </header>
+            <section>
+              <p>Cuando se programa una pagina web, en la mayoria de los 
+                casos se utiliza los que se conocen como "Lenguajes de Programacion".</p>
+          
+              <p>Es decir , que el servidor no interviene para nada en el proceso de 
+                crear la pagina web solicitada por el usuario.</p>
+          
+              <p>Las paginas creadas con estor lenguajes son enviadas al usuario de forma
+                el navegador es el encargado de interpretar y mostrarlas por pantalla.</p>
+                <img src="def.png" class="img-fondo1">
+            </section>
+          </article>
         <footer>
             <h2 class="pie-texto">&copy;  Todos los derechos reservados Raul Velasco Arcos</h2>
         </footer>
@@ -76,5 +83,6 @@
 
     <script src="jquery.js"></script>
     <script src="main.js"></script>
+    <script src="articulo.js"></script>
 </body>
 </html>
