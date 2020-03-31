@@ -196,5 +196,8 @@ background:#ee0467
     }
     .img-fondo1{
         width: 100%;
-    }
+	}
+	.wrapper {
+		width: 90%;
+	}
 }
