@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="articulo.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/5998947bec.js" crossorigin="anonymous"></script>
+    <script src="articulo.js"></script>
+    <title>Lenguaje CSS</title>
+</head>
+<body>
+    <div class="background">
+    </div>
+    <header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><i class="fas fa-align-justify"></i>Menu</a>
+        </div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li class="sub-menu">
+                    <a href="#">Cliente <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="clien-definicion.html">Definición</a></li>
+                        <li><a href="clien-intro.html">Introducción</a></li>   
+                    </ul>
+                </li>
+                <li class="sub-menu">
+                    <a href="#">Lenguajes <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="lenguaje-html.html">HTML</a></li>
+                        <li><a href="lenguaje-javascript.html">Java Script</a></li>  
+                        <li><a href="lenguaje-css.html">CSS</a></li>
+                        <li><a href="visual.html">Visual Basic Script</a></li>
+                        <li><a href="lenguaje-java.html">Applets de java </a></li> 
+                    </ul>
+                </li>
+				<li class="sub-menu">
+                    <a href="#">Frameworks <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="clien-definicion.html">Definición</a></li>
+                        <li><a href="clien-intro.html">Arquitectura</a></li>
+                        <li><a href="clien-intro.html">Tipos</a></li> 
+                        <li><a href="clien-intro.html">Caracteristicas</a></li>
+                    </ul>
+                </li>
+				<li><a href="#">Estructuras de contro</a></li>
+                <li><a href="#">Manipulación de objetos</a></li>
+                <li class="sub-menu">
+                    <a href="#">Ejemplos <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="clien-definicion.html">Ejemplo 1</a></li>
+                        <li><a href="clien-intro.html">Ejemplo 2</a></li>   
+                    </ul>
+                </li>
+			</ul>
+        </nav>
+    </header>
+    <article class="wrapper">
+        <header class="uni">
+          <h1 class="pageTitle">Lenguaje Applet Java</h1>
+          <h2 class="pageSubTitle">Caracteristicas</h2>
+        </header>
+        <section>
+          <p> Un applet Java es un applet escrito en el lenguaje de programación Java. Los applets de Java pueden ejecutarse en un navegador
+               web utilizando la Java Virtual Machine (JVM), o en el AppletViewer de Sun.</p>
+          <p>
+            Entre sus características podemos mencionar un esquema de seguridad que 
+            permite que los applets que se ejecutan en el equipo no tengan acceso a partes sensibles
+              
+          </p>
+          <img src="java.jpg" class="img-fondo1">
+        </section>
+      </article>
+      <article class="wrapper">
+      <header class="uni">
+        <h1 class="pageTitle">Applet Java</h1>
+        <h2 class="pageSubTitle">Ventajas</h2>
+      </header>
+      <section>
+        <ul>
+            <li><p>Son multiplataforma (funcionan en Linux, Windows, OS X, y en cualquier sistema operativo para el cual exista una Java Virtual Machine).</p></li>
+            <li><p >Es compatible con la mayoría de los navegadores web.</p></li>
+            <li><p >Puede trasladar el trabajo del servidor al cliente, haciendo una solución web más escalable tomando en cuenta el número de usuarios o clientes.</p></li>
+            <li><p >Puede tener acceso completo a la máquina en la que se está ejecutando, si el usuario lo permite.</p></li>
+            <li>El código compilado se ejecuta muy rápido, al no ser necesaria una traducción cada vez.</li>
+        </ul>
+      </section>
+    </article>
+    <article class="wrapper">
+        <header class="uni">
+          <h1 class="pageTitle">Applet Java</h1>
+          <h2 class="pageSubTitle">Desventajas</h2>
+        </header>
+        <section>
+            <ul>
+                <li>
+                    <p>Requiere el plugin de Java, sin embargo los navegadores Chrome y Edge no soportan plugins y Firefox dejará de soportarlos próximamente. En ese sentido también Oracle 
+                        anunció que abandonará el desarrollo del plugin de Java a partir de la salida de Java 9.</p>
+                </li>
+                <li>
+                    <p >No puede iniciar la ejecución hasta que la JVM esté en funcionamiento, y esto puede tomar tiempo la primera vez que se ejecuta un applet.</p>
+                </li>
+                <li>
+                    <p >Un applet podría exigir una versión específica del JRE.</p>
+                </li>
+            </ul>
+        </section>
+      </article>
+    <footer>
+        <h2 class="pie-texto">&copy;  Todos los derechos reservados Raul Velasco Arcos</h2>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
