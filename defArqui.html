@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="articulo.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/5998947bec.js" crossorigin="anonymous"></script>
+    <script src="articulo.js"></script>
+    <title>Arquitectura Framework</title>
+</head>
+<body>
+    <div class="background">
+    </div>
+    <header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><i class="fas fa-align-justify"></i>Menu</a>
+        </div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li class="sub-menu">
+                    <a href="#">Cliente <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="clien-definicion.html">Definición</a></li>
+                        <li><a href="clien-intro.html">Introducción</a></li>   
+                    </ul>
+                </li>
+                <li class="sub-menu">
+                    <a href="#">Lenguajes <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="lenguaje-html.html">HTML</a></li>
+                        <li><a href="lenguaje-javascript.html">Java Script</a></li>  
+                        <li><a href="lenguaje-css.html">CSS</a></li>
+                        <li><a href="visual.html">Visual Basic Script</a></li>
+                        <li><a href="lenguaje-java.html">Applets de java </a></li> 
+                    </ul>
+                </li>
+				<li class="sub-menu">
+                    <a href="#">Frameworks <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="defFra.html">Definición</a></li>
+                        <li><a href="defArqui.html">Arquitectura</a></li>
+                        <li><a href="defTipos.html">Tipos</a></li> 
+                        <li><a href="defCarac.html">Caracteristicas</a></li>
+                    </ul>
+                </li>
+				<li><a href="#">Estructuras de control</a></li>
+                <li><a href="#">Manipulación de objetos</a></li>
+                <li class="sub-menu">
+                    <a href="#">Ejemplos <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="clien-definicion.html">Ejemplo 1</a></li>
+                        <li><a href="clien-intro.html">Ejemplo 2</a></li>   
+                    </ul>
+                </li>
+			</ul>
+        </nav>
+    </header>
+    <article class="wrapper">
+        <header class="uni">
+          <h1 class="pageTitle">Arquitectura de un Framework</h1>
+          <h2 class="pageSubTitle">¿Modelo vista controlador (MVC)</h2>
+        </header>
+        <section>
+            <p>Modelo Vista Controlador (MVC) es un estilo de arquitectura de 
+                software que separa los datos de una aplicación, la interfaz de usuario,
+                 y la lógica de control en tres componentes distintos.
+                Se trata de un modelo muy maduro y que ha demostrado su validez a lo largo
+                 de los años en todo tipo de aplicaciones, y sobre multitud de lenguajes y 
+                 plataformas de desarrollo..</p>
+                 <ul>
+                     <li>
+                         <p>
+                            El Modelo que contiene una representación de los datos que maneja el sistema,
+                             su lógica de negocio, y sus mecanismos de persistencia.
+                        </p>
+                    </li>
+                     <li>
+                         <p>
+                            La Vista, o interfaz de usuario, que compone la información que se envía al
+                             cliente y los mecanismos interacción con éste.
+                        </p>
+                    </li>
+                     <li>
+                         <p>
+                            El Controlador, que actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las
+                             transformaciones para adaptar los datos a las necesidades de cada uno.
+                         </p>
+                     </li>
+                 </ul>
+          <img src="mvc.png" class="img-fondo1">
+        </section>
+      </article>
+    <footer>
+        <h2 class="pie-texto">&copy;  Todos los derechos reservados Raul Velasco Arcos</h2>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
