@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="articulo.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/5998947bec.js" crossorigin="anonymous"></script>
+    <script src="articulo.js"></script>
+    <title>Ejemplo de frameworks AngularJS</title>
+</head>
+<body>
+    <div class="background">
+    </div>
+    <header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><i class="fas fa-align-justify"></i>Menu</a>
+        </div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li class="sub-menu">
+                    <a href="#">Cliente <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="clien-definicion.html">Definición</a></li>
+                        <li><a href="clien-intro.html">Introducción</a></li>   
+                    </ul>
+                </li>
+                <li class="sub-menu">
+                    <a href="#">Lenguajes <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="lenguaje-html.html">HTML</a></li>
+                        <li><a href="lenguaje-javascript.html">Java Script</a></li>  
+                        <li><a href="lenguaje-css.html">CSS</a></li>
+                        <li><a href="visual.html">Visual Basic Script</a></li>
+                        <li><a href="lenguaje-java.html">Applets de java </a></li> 
+                    </ul>
+                </li>
+				<li class="sub-menu">
+                    <a href="#">Frameworks <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="defFra.html">Definición</a></li>
+                        <li><a href="defArqui.html">Arquitectura</a></li>
+                        <li><a href="defTipos.html">Tipos</a></li> 
+                        <li><a href="defCarac.html">Caracteristicas</a></li>
+                    </ul>
+                </li>
+				<li><a href="estructura.html">Estructuras de control</a></li>
+                <li><a href="dom.html">Manipulación de objetos</a></li>
+                <li class="sub-menu">
+                    <a href="#">Ejemplos <i class=" carter fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="frae1.html">Ejemplo 1</a></li>
+                        <li><a href="frae2.html">Ejemplo 2</a></li>   
+                    </ul>
+                </li>
+			</ul>
+        </nav>
+    </header>
+    <article class="wrapper">
+        <header class="uni">
+          <h1 class="pageTitle">frameworks AngularJS</h1>
+          <h2 class="pageSubTitle">¿Qué es AngularJS?</h2>
+        </header>
+        <section>
+            <p>
+                AngularJS es un framework javascript que nos facilita el desarrollo de aplicaciones web
+                 mono página. En este tipo de aplicaciones y si no usamos algún tipo de framework javascript,
+                  es fácil que tengamos que hacer código javascript que modifique el contenido html de la página
+                   en función de los datos que tengamos que mostrar, la vista en la que estemos, etc. AngularJS nos 
+                   facilita esta tarea permitiendonos
+                 definir un modelo de datos en javascript y unas plantillas html que se modificarán 
+                 automáticamente en función del contenido de esos datos.
+            </p>
+                <img src="angular.png"  class="img-fondo1">
+        </section>
+      </article>
+      <article class="wrapper">
+        <header class="uni">
+          <h1 class="pageTitle">Ejemplo AngularJS </h1>
+          <h2 class="pageSubTitle"></h2>
+        </header>
+        <section>
+            <p>
+                Para utilizar AngularJS, en nuestro html debemos incluir la librería javascript angular.js. Podemos cogerla directamente de las google apis con
+            </p>
+            <img src="inclu.png"  class="img-fondo1">
+            <p>En algún sitio de nuestro html que abarque todo el html que queremos manejar con angularjs debemos poner un atributo ng-app o data-ng-app (son lo mismo). Puede ser el tag <body>, el tag <html> o cualquier otro tag que queramos. En nuestro ejemplo vamos a usar el tag <body></body></p>
+                
+            <img src="o.png"  class="img-fondo1">
+            <p>
+                Dentro de app.js vamos a escribir controladores de AngularJS. Estos controladores no son más que funciones javascript que reciben como parámetro la variable $scope definida por AngularJS. Todos los atributos que pongamos a esa variable $scope formarán parte del modelo de datos de nuestra aplicación y serán datos accesibles fácilmente desde la parte html.
+            </p>
+                <img src="op.png"  class="img-fondo1">
+            <p>
+                tendremos disponible en html una variable greeting cuyo contenido es 'hello'. En el html, podemos poner algo como esto
+            </p>
+            <img src="po.png"  class="img-fondo1">
+            <p>
+                En el input indicamos con data-ng-model="greeting" que el contenido del input es el de la variable greeting. AngularJS se encarga de hacer los cambios necesarios en ambos sentidos. Si escribimos en la caja de texto, modificará la variable y al modificar la variable, actualizará el párrafo p. A continuación tienes lo que quedaría
+            </p>
+            <img src="ol.png"  class="img-fondo1">
+        </section>
+      </article>
+    <footer>
+        <h2 class="pie-texto">&copy;  Todos los derechos reservados Raul Velasco Arcos</h2>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
