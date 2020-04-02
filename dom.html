@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="articulo.css">
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/5998947bec.js" crossorigin="anonymous"></script>
-
-    <title>Tarea 4</title>
+    <script src="articulo.js"></script>
+    <title>Manipulación de Objetos</title>
 </head>
 <body>
-    <main>
-        <div class="background">
-        </div>
+    <div class="background">
+    </div>
     <header>
 		<div class="menu_bar">
 			<a href="#" class="bt-menu"><i class="fas fa-align-justify"></i>Menu</a>
@@ -58,17 +58,50 @@
 			</ul>
         </nav>
     </header>
-    <section></section>
-    <section>
-        <h1 class="titulo">Programación del lado del Cliente</h1>
-        <img src="1.jpg" alt="" class="img-fondo">
-    </section>
+    <article class="wrapper">
+        <header class="uni">
+          <h1 class="pageTitle">Manipulación de Objetos</h1>
+          <h2 class="pageSubTitle">Caracteristicas</h2>
+        </header>
+        <section>
+          <p>
+            El Modelo de Objetos de Documento (DOM Document Object Model) describe cómo todos los elementos en una página HTML, tales como campos de entrada, imágenes, etc, se relacionan con la estructura más alta: el propio documento. Llamando al elemento por su nombre correcto 
+            DOM, podemos influir en él mediante un lenguaje de programación, e,g. Javascript, Java, etc.
+          </p>
+          <img src="dom.png" class="img-fondo1">
+        </section>
+      </article>
+      <article class="wrapper">
+      <header class="uni">
+        <h1 class="pageTitle">Acceder a hijos/padres de un elemento</h1>
+        <h2 class="pageSubTitle"></h2>
+      </header>
+      <section>
+        <img src="2.png" class="img-fondo1">
+      </section>
+    </article>
+    <article class="wrapper">
+        <header class="uni">
+          <h1 class="pageTitle">Acceso a elementos del DOM</h1>
+          <h2 class="pageSubTitle"></h2>
+        </header>
+        <section>
+            <img src="er.png" class="img-fondo1">
+        </section>
+      </article>
+      <article class="wrapper">
+        <header class="uni">
+          <h1 class="pageTitle">Crear nuevos elementos en el DOM</h1>
+          <h2 class="pageSubTitle"></h2>
+        </header>
+        <section>
+            <img src="4.png" class="img-fondo1">
+        </section>
+      </article>
     <footer>
         <h2 class="pie-texto">&copy;  Todos los derechos reservados Raul Velasco Arcos</h2>
     </footer>
-    </main>
     <script src="jquery.js"></script>
     <script src="main.js"></script>
-    <script src="articulo.js"></script>
 </body>
 </html>
